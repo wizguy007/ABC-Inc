@@ -1,0 +1,783 @@
+body{
+	background-color:black;
+	margin:0px;
+	padding:0px;
+	}
+.header {
+	height: 150px;
+	width: 100%;
+	padding: 3px;
+	border-radius: 2px;
+	background:black;
+}
+
+.lan{
+	position:absolute;
+	right:20px;
+	top:100px;
+	border-radius:5px;
+	background:green;
+	}
+
+#search{
+	float:right;
+	width:25%;
+	height:40px;
+	margin-top:15px;
+	border:4px inset green;
+	margin-right:60px;
+	}
+
+
+.noticebar {
+	height: 40px;
+	width: 100%;
+	padding: 3px;
+	border-radius: 2px;
+	background:green;
+	margin-top:1px;
+	font-family:"Comic Sans MS", cursive;
+	padding:4px;
+	padding-left:100px;
+	font-size:30px;
+	color:white;
+	
+}
+
+
+	
+#submit{
+	width:10%;
+	height:40px;
+	margin-left:2px;
+	border:1px solid #006;
+	border-radius:5px;
+	font-size:15px;
+	}	
+	
+#submit:hover{
+	background-color:#666;
+	color:#006;
+	}	
+	
+
+	
+.h1{
+	text-decoration:none;
+	}		
+
+
+.logo {
+	height: 50px;
+	width:200px;
+	border-radius:10px;
+	border:4px inset green;
+	margin-top:30px;
+	margin-left:30px;
+	opacity:0.7;
+	filter:aipha(opacity=50);
+	
+}
+
+
+
+.nav {
+	width:70%;
+	margin:0 auto;
+	font-family:"Comic Sans MS", cursive;
+	
+}
+
+.icnimg{
+	width:25px;
+	height:25px;
+	}
+
+ul{
+
+	padding-top:2px;
+	padding-bottom:2px;
+	border-radius:4px;
+	padding-left:0px;
+	padding-right:0px;
+	}
+
+li{
+	display:inline-block;
+	
+	}
+	
+li a{
+	text-decoration:none;
+	padding:3px 30px 3px;
+	font-weight:bold;
+	color:white;
+	border-radius:20px;
+	background:green;
+	border-style:solid;
+	border-width:3px 4px 4px 3px;
+	border-color:#bbb #888 #666 #aaa;
+	}	
+	
+li a:hover{
+	background:green;
+	color:white;
+	border-width:4px 3px 3px 4px;
+	border-color:#666 #aaa #bbb #888;
+	}
+	
+li a:active{
+	background-color:red;
+	color:white;
+	border-width:4px 3px 3px 4px;
+	border-color:#666 #aaa #bbb #888;
+	}	
+
+
+.regis{
+	height:684px;
+	float:left;
+	width:20%;
+	padding:5px;
+	color:green;
+	}
+	
+.login{
+	height:220px;
+	width:93%;
+	background-color:#000;
+	padding:10px;
+	padding-top:0px;
+	}
+	
+#submit{
+	width:67px;
+	height:30px;
+	text-align:center;
+	font-weight:bold;
+	}	
+	
+hr{
+	height:3px;
+	background-color:green;
+	}	
+	
+.sign_up{
+	height:430px;
+	width:93%;
+	background-color:#000;
+	padding:10px;
+	margin-top:10px;
+	padding-top:0px;
+	}		
+
+
+.footer{
+	height: 320px;
+	width: 100%;
+	padding: 10px;
+	margin-top:2px;
+	background:green;
+	font-family:"Comic Sans MS", cursive;
+	}
+	
+.footer1{
+	height: 230px;
+	width: 30%;
+	padding: 5px;
+	margin-top:2px;
+	color:white;
+	text-align:center;
+	float:left;
+	font-weight:bold;
+	}
+	
+	
+.footer2{
+	height: 230px;
+	width: 30%;
+	padding: 5px;
+	margin-top:2px;
+	color:white;
+	text-align:center;
+	float:left;
+	margin-left:60px;
+	font-weight:bold;
+	}
+	
+	
+.footer3{
+	height: 230px;
+	width: 30%;
+	padding: 5px;
+	margin-top:2px;
+	color:white;
+	text-align:center;
+	float:right;
+	font-weight:bold;
+	}	
+	
+.social{
+	height:180px;
+	width:45%;
+	float:left;
+	}
+	
+.icon{
+	height:165px;
+	width:45%;
+	float:right;
+	padding-top:17px;
+	}		
+	
+.iconimg{
+	width:30px;
+	height:32px;
+	border-radius:10px;
+	}		
+
+
+.footer a{
+	text-decoration:none;
+	color:white;
+	}
+
+.footer a:hover{
+	text-decoration:none;
+	color:purple;
+	}
+	
+	
+.downfooter{
+	width:40%;
+	height:40px;
+	float:right;
+	margin-top:40px;
+	padding:3px;
+	color:white;
+	}	
+	
+	
+	
+					/*STYLE SHEET FOR INDEX CONTAINER --- BEGINS*/
+					
+.content-index{
+	height: 700px;
+	margin: 0 auto;
+	width: 94%;
+	margin-top: 2px;
+	border-radius: 4px;
+	background:black;
+	padding: 10px;
+	font-family:"Comic Sans MS", cursive;
+	
+	}	
+	
+.maincontent{
+	width:77%;
+	height:674px;
+	float:right;
+	padding:10px;
+	background-color:#000;
+	color:white;
+	font-family:"Comic Sans MS", cursive;
+	}					
+					
+.slider{
+	width:70%;
+	height:290px;
+	margin:0 auto;
+	border:3px inset green;
+	border-radius: 2px;
+	margin-top:3px;
+	position:relative;
+	}	
+	
+#sliderimg{
+	width:100%;
+	 height:290px;
+	 position:absolute;
+	}
+	
+.leftarrow{
+	height:290;
+	width:10%;
+	top:0px;
+	left:0px;
+	position:absolute;
+	
+	}
+	
+.rightarrow{
+	height:290;
+	width:10%;
+	float:right;
+	position:absolute;
+	top:0px;
+	right:0px;
+	}	
+	
+#slidericon1{
+	height:50px;
+	width:50px;
+	position:absolute;
+	top:40%;
+	left:0px;
+	cursor:pointer;
+	}	
+	
+#slidericon2{
+	height:50px;
+	width:50px;
+	position:absolute;
+	top:40%;
+	right:0px;
+	cursor:pointer;
+	}	
+	
+.sliderinfo{
+	width:40%;
+	height:200px;
+	background:black;
+	position:absolute;
+	opacity:0.7;
+	border-radius:10px;
+	right:10%;
+	top:20%;
+	text-align:center;
+	padding:5px;}		
+	
+	
+.info1{
+	width:31%;
+	height:400px;
+	float:left;
+	margin-top:10px;
+	padding:4px;
+	}
+	
+.info2{
+	width:31%;
+	height:350px;
+	float:left;
+	margin-left:19px;
+	margin-top:10px;
+	padding:4px;
+	background:#000;
+	}
+	
+.info2box{
+	text-align:center;
+	height:300px;
+	width:95%;
+	margin:0 auto;
+	border:2px solid green;
+	border-radius:10px;
+	padding:5px;
+	padding-top:10px;
+		}
+		
+		
+	
+.info3{
+	width:31%;
+	height:400px;
+	float:right;
+	margin-top:10px;
+	padding:4px;
+	}							
+		
+.imgidx{
+	 width:90%;
+	 height:200px;
+	 border:2px solid green;
+	 border-radius:10px;
+	 }					
+					
+					
+					/*STYLE SHEET FOR INDEX CONTAINER --- ENDS*/
+					
+					
+					
+					
+					
+					/*STYLE SHEET FOR PRODUCT CONTAINER --- BEGINS*/
+				
+				
+.upproduct{
+	width:99%;
+	height:310px;
+	margin:0 auto;
+	margin-top:10px;
+	padding-top:10px;
+	padding-left:2px;
+	padding-right:2px;
+	color:#FFF;
+	border-bottom:3px solid #0C0;
+	}	
+	
+.downproduct{
+	width:99%;
+	height:310px;
+	margin:0 auto;
+	margin-top:10px;
+	padding-top:10px;
+	padding-left:5px;
+	padding-right:5px;
+	color:#FFF;
+	}	
+			
+					
+.product1{
+	width:19%;
+	height:300px;
+	float:left;
+	padding:1px;
+	background-color:#000;
+	}
+	
+.product2{
+	width:19%;
+	height:300px;
+	float:left;
+	margin-left:10px;
+	padding:1px;;
+	background-color:#000;
+	}	
+	
+	
+.product3{
+	width:19%;
+	height:300px;
+	float:right;
+	padding:1px;
+	background-color:#000;
+	}	
+	
+	
+.product4{
+	width:19%;
+	height:300px;
+	float:right;
+	margin-right:10px;
+	padding:1px;
+	background-color:#000;
+	}					
+	
+.product9{
+	width:19%;
+	margin-left:15px;
+	height:300px;
+	float:left;
+	padding:1px;
+	background-color:#000;
+	}	
+	
+.product5{
+	width:19%;
+	height:300px;
+	float:left;
+	padding:1px;
+	background-color:#000;
+	}
+	
+.product6{
+	width:19%;
+	height:300px;
+	float:left;
+	margin-left:10px;
+	padding:1px;
+	background-color:#000;
+	}	
+	
+	
+.product7{
+	width:19%;
+	height:300px;
+	float:right;
+	padding:1px;
+	background-color:#000;
+	}	
+	
+.product8{
+	width:19%;
+	height:300px;
+	float:right;
+	margin-right:10px;
+	padding:1px;
+	background-color:#000;
+	}	
+	
+.product10{
+	width:19%;
+	margin-left:15px;
+	height:300px;
+	float:left;
+	padding:1px;
+	background-color:#000;
+	}		
+	
+.imgpro{
+	margin-top:10px;
+	width:236px;
+	height:168px;
+	border:4px inset #0C0;;
+	border-radius:10px;
+	}	
+	
+.content-product{
+	height: 700px;
+	margin: 0 auto;
+	width: 94%;
+	margin-top: 2px;
+	padding: 10px;
+	font-family:"Comic Sans MS", cursive;
+	}	
+	
+.content-product a{
+	text-decoration:none;
+	color:blue;
+	}
+
+.content-product a:hover{
+	text-decoration:none;
+	color:purple;
+	}	
+									
+					
+					/*STYLE SHEET FOR PRODUCT CONTAINER --- ENDS*/
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					/*STYLE SHEET FOR GAMING CENTER CONTAINER --- BEGINS*/
+					
+.content-gaming{
+	height: 700px;
+	margin: 0 auto;
+	width: 94%;
+	margin-top: 2px;
+	padding: 10px;
+	font-family:"Comic Sans MS", cursive;
+	color:white;
+	}		
+	
+.leftgame{
+	float:left;
+	width:48%;
+	height:620px;
+	background:#000;
+	padding:10px;
+	margin-left:2px;
+	border-radius: 4px;
+	border:3px inset #0C0;
+	text-align:center;
+	border-radius:20px;
+	
+	}
+	
+.rightgame{
+	float:right;
+	width:48%;
+	height:620px;
+	background:#000;
+	padding:10px;
+	margin-right:2px;
+	border-radius: 4px;
+	border:3px inset #0C0;
+	text-align:center;
+	border-radius:20px;
+	
+	}	
+	
+.imgcontainer{
+	width:90%;
+	height:380px;
+	background:#966;
+	margin:0 auto;
+	border-radius:20px;
+	
+	}	
+	
+.gameimage{
+	width:100%;
+	height:380px;
+	border-radius:20px;
+	border:3px inset #00008C;
+	
+	}	
+	
+.content-gaming a{
+	text-decoration:none;
+	color:blue;
+	}
+
+.content-gaming a:hover{
+	text-decoration:none;
+	color:purple;
+	}		
+						
+					
+					/*STYLE SHEET FOR GAMING CENTER CONTAINER --- ENDS*/
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					/*STYLE SHEET FOR CONTACT US CONTAINER --- BEGINS*/
+
+.content-contact{
+	height: 700px;
+	margin: 0 auto;
+	width: 94%;
+	margin-top: 2px;
+	background:#000;
+	padding: 10px;
+	font-family:"Comic Sans MS", cursive;
+	}	
+	
+.contact1{
+	width:22%;
+	height:690;
+	float:left;
+	color:white;
+	text-align:left;
+	padding:4px;
+	}
+
+.contact2{
+	width:22%;
+	height:690px;
+	float:left;
+	margin-left:50px;
+	color:white;
+	text-align:left;
+	padding:4px;
+	}
+
+.contact3{
+	width:22%;
+	height:690px;
+	float:right;
+	color:white;
+	text-align:left;
+	padding:4px;
+	}
+	
+.contact4{
+	width:22%;
+	height:690px;
+	float:left;
+	margin-left:50px;
+	color:white;
+	text-align:left;
+	padding:4px;
+	}	
+	
+	
+.cn{
+	margin-top:120px;
+	background-color:black;
+	height:1px;
+	}	
+	
+.conticon{
+	width:25px;
+	height:25px;}	
+			
+					
+					/*STYLE SHEET FOR CONTACT US CONTAINER --- ENDS*/
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					/*STYLE SHEET FOR ABOUT US CONTAINER --- BEGINS*/
+					
+.content-about{
+	height: 700px;
+	margin: 0 auto;
+	width: 94%;
+	margin-top: 2px;
+	background:#000;
+	padding: 10px;
+	font-family:"Comic Sans MS", cursive;
+	color:white;
+	}	
+	
+.about1{
+	width:28%;
+	height:680px;
+	padding:10px;
+	text-align:left;
+	}
+	
+.about2{
+	width:68%;
+	height:680px;
+	float:right;
+	padding:10px;
+	}								
+					
+					/*STYLE SHEET FOR ABOUT US CONTAINER --- ENDS*/
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					/*STYLE SHEET FOR SUPPORT CONTAINER --- BEGINS*/
+					
+.content-support{
+	height: 700px;
+	margin: 0 auto;
+	width: 94%;
+	margin-top: 2px;
+	border-radius: 4px;
+	background:#000;
+	padding: 10px;
+	font-family:"Comic Sans MS", cursive;
+	color:white;
+	}		
+	
+.support1{
+	width:28%;
+	height:680px;
+	padding:10px;
+	}
+	
+.support2{
+	width:68%;
+	height:680px;
+	float:right;
+	padding:10px;
+	}						
+					
+					/*STYLE SHEET FOR SUPPORT CONTAINER --- ENDS*/
+					
+					
+					
+					
+					
+					
+					
